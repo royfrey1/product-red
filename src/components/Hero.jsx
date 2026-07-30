@@ -1,7 +1,10 @@
+import fondo from '../assets/fondo1.jpg'
+
 export default function Hero() {
   return (
     <section className="min-h-screen flex flex-col items-center justify-center text-center px-6 pt-[140px] pb-15 lg:pb-20 relative overflow-hidden">
       <div className="absolute inset-0 overflow-hidden z-0">
+        <img src={fondo} alt="" className="absolute inset-0 w-full h-full object-cover opacity-25" />
         <div className="orb w-[500px] h-[500px] bg-radial from-[#9A0002] to-transparent to-70% rounded-full absolute -top-[120px] -right-[100px] opacity-50 blur-3xl animate-[float_12s_ease-in-out_infinite]"></div>
         <div className="orb w-[400px] h-[400px] bg-radial from-[#4A0001] to-transparent to-70% rounded-full absolute -bottom-20 -left-20 opacity-50 blur-3xl animate-[float_16s_ease-in-out_infinite_reverse]"></div>
         <div className="orb w-[300px] h-[300px] bg-radial from-[#FCE8E9] to-transparent to-70% rounded-full absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 opacity-50 blur-3xl animate-[float_14s_ease-in-out_infinite_2s]"></div>
