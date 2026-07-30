@@ -23,7 +23,7 @@ export default function Navbar({ cartCount, onOpenCart }) {
   const linkClass = "no-underline text-text font-medium text-[0.9rem] tracking-wide transition-colors duration-300 hover:text-primary relative pb-1 after:content-[''] after:absolute after:bottom-0 after:left-0 after:w-0 after:h-[2px] after:bg-primary after:rounded-sm after:transition-all after:duration-300 hover:after:w-full"
 
   return (
-    <nav className="fixed top-3 md:top-5 left-1/2 -translate-x-1/2 w-[92%] max-w-[1200px] px-4 md:px-8 py-3 md:py-3.5 flex items-center justify-between rounded-[100px] z-50 glass">
+    <nav className="fixed top-3 md:top-5 left-1/2 -translate-x-1/2 w-[92%] max-w-[1200px] px-4 md:px-8 py-3 md:py-3.5 flex items-center justify-between rounded-[100px] z-50 bg-bg/25 backdrop-blur-[24px] backdrop-saturate-[1.4] border border-white/35 shadow-[0_8px_40px_rgba(154,0,2,0.06),inset_0_1px_0_rgba(255,255,255,0.5)]">
       <a href="#" className="font-playfair font-bold text-[1.6rem] text-primary no-underline tracking-tight flex items-center gap-2">
         (PRODUCT)<span className="align-super text-[0.55em] font-inter font-semibold">red</span>
       </a>
