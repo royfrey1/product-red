@@ -1,4 +1,4 @@
-import fondo from '../assets/fondo2.jpg'
+import fondo from '../assets/fondo1.jpg'
 
 export default function Hero() {
   return (
