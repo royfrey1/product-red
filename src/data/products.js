@@ -5,7 +5,7 @@ export const products = [
     category: 'iPhone',
     price: 1599,
     oldPrice: 1799,
-    image: 'https://picsum.photos/seed/iphone16promax/400/400',
+    image: 'https://fdn2.gsmarena.com/vv/pics/apple/apple-iphone-16-pro-max-1.jpg',
     description: 'El iPhone más potente de la historia. Chip A18 Pro, sistema de cámara profesional de 48 MP, batería para todo el día y pantalla Super Retina XDR de 6.9 pulgadas.',
     specs: {
       Pantalla: '6.9" Super Retina XDR OLED',
@@ -22,7 +22,7 @@ export const products = [
     category: 'iPhone',
     price: 1399,
     oldPrice: 1599,
-    image: 'https://picsum.photos/seed/iphone16pro/400/400',
+    image: 'https://fdn2.gsmarena.com/vv/pics/apple/apple-iphone-16-pro-1.jpg',
     description: 'Potencia profesional en un tamaño más compacto. Chip A18 Pro, cámara de 48 MP con zoom óptico 5x y pantalla siempre activa.',
     specs: {
       Pantalla: '6.3" Super Retina XDR OLED',
@@ -39,7 +39,7 @@ export const products = [
     category: 'iPhone',
     price: 999,
     oldPrice: 1099,
-    image: 'https://picsum.photos/seed/iphone16/400/400',
+    image: 'https://fdn2.gsmarena.com/vv/pics/apple/apple-iphone-16-1.jpg',
     description: 'El iPhone reimaginado. Chip A18, cámara de 48 MP con gran angular, Botón de Acción y USB-C. Disponible en 5 colores vibrantes.',
     specs: {
       Pantalla: '6.1" Super Retina XDR OLED',
@@ -56,7 +56,7 @@ export const products = [
     category: 'Accesorios',
     price: 349,
     oldPrice: 399,
-    image: 'https://picsum.photos/seed/airpodspro2/400/400',
+    image: 'https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/airpods-pro-2-hero-select-202409?wid=400',
     description: 'Cancelación de ruido activa 2x más potente. Audio adaptativo, detección de conversación y estuche MagSafe con altavoz integrado.',
     specs: {
       Tipo: 'In-Ear con silicona',
@@ -73,7 +73,7 @@ export const products = [
     category: 'Accesorios',
     price: 79,
     oldPrice: 99,
-    image: 'https://picsum.photos/seed/magsafe/400/400',
+    image: 'https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/MHXH3?wid=400',
     description: 'Carga inalámbrica magnética ultrarrápida. Compatible con iPhone 12 y posteriores. Carga hasta 25W con adaptador USB-C de 30W o superior.',
     specs: {
       Potencia: '25W (con adaptador 30W+)',
@@ -90,7 +90,7 @@ export const products = [
     category: 'Accesorios',
     price: 69,
     oldPrice: 79,
-    image: 'https://picsum.photos/seed/fundafinewoven/400/400',
+    image: 'https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/MA7E4?wid=400',
     description: 'Funda ultrafina con microfibra interior. Hecha con material textil de microtwill resistente a manchas. Compatible con MagSafe.',
     specs: {
       Material: 'Microtwill (FineWoven)',
